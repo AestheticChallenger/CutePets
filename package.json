@@ -1,0 +1,39 @@
+{
+  "name": "cutepets",
+  "version": "1.0.0",
+  "description": "A playful social media site where pets have profiles, share posts, and connect with other furry or feathery friends.",
+  "keywords": [
+    "pet",
+    "social",
+    "media",
+    "website",
+    "(and",
+    "app",
+    "if",
+    "we",
+    "have",
+    "time)"
+  ],
+  "homepage": "https://github.com/AestheticChallenger/CutePets#readme",
+  "bugs": {
+    "url": "https://github.com/AestheticChallenger/CutePets/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AestheticChallenger/CutePets.git"
+  },
+  "license": "ISC",
+  "author": "Team_8",
+  "type": "commonjs",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "dev": "nodemon main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "mongodb": "^6.17.0",
+    "nodemon": "^3.1.10"
+  }
+}
