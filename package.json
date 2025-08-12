@@ -1,18 +1,12 @@
 {
-  "name": "cutepets",
+  "name": "barking_lot",
   "version": "1.0.0",
-  "description": "A playful social media site where pets have profiles, share posts, and connect with other furry or feathery friends.",
+  "description": "Pets adoption website",
   "keywords": [
-    "pet",
-    "social",
-    "media",
+    "Pets",
     "website",
-    "(and",
-    "app",
-    "if",
-    "we",
-    "have",
-    "time)"
+    "js",
+    "mongodb"
   ],
   "homepage": "https://github.com/AestheticChallenger/CutePets#readme",
   "bugs": {
@@ -25,15 +19,18 @@
   "license": "ISC",
   "author": "Team_8",
   "type": "commonjs",
-  "main": "main.js",
+  "main": "server.js",
   "scripts": {
-    "start": "node main.js",
-    "dev": "nodemon main.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "dependencies": {
+    "body-parser": "^2.2.0",
+    "dotenv": "^17.2.1",
     "express": "^5.1.0",
-    "mongodb": "^6.17.0",
+    "mongoose": "^8.17.1"
+  },
+  "devDependencies": {
     "nodemon": "^3.1.10"
   }
 }
